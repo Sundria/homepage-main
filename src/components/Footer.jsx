@@ -4,7 +4,7 @@ import Gaming from "../assets/images/image-gaming-growth.jpg";
 const Footer = () => {
   return (
     <footer className="my-20">
-      <div className="container max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="container max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-4 md:p-0">
         <div className="flex gap-6">
           <img
             src={RetroPc}
@@ -12,14 +12,14 @@ const Footer = () => {
             className="w-32 h-40 object-cover shrink-0"
           />
           <div className="flex flex-col justify-between">
-            <p className="text-4xl font-bold text-soft-red">01</p>
+            <p className="text-3xl md:text-4xl font-bold text-soft-red">01</p>
             <a
               href="#"
-              className="text-xl text-very-dark-blue font-extrabold hover:text-soft-red"
+              className="text-lg md:text-xl text-very-dark-blue font-extrabold hover:text-soft-red"
             >
               Reviving Retro PCs
             </a>
-            <p className=" text-dark-grayish-blue leading-7">
+            <p className="text-sm md:text-paragraph text-dark-grayish-blue leading-7">
               What happens when old PCs are given modern upgrades?
             </p>
           </div>
@@ -31,15 +31,15 @@ const Footer = () => {
             className="w-32 h-40 object-cover shrink-0"
           />
           <div className="flex flex-col justify-between">
-            <p className="text-4xl font-bold text-soft-red">01</p>
+            <p className="text-3xl md:text-4xl font-bold text-soft-red">02</p>
             <a
               href="#"
-              className="text-xl text-very-dark-blue font-extrabold hover:text-soft-red"
+              className="text-lg md:text-xl text-very-dark-blue font-extrabold hover:text-soft-red"
             >
-              Reviving Retro PCs
+              Top 10 Laptops of 2022
             </a>
-            <p className=" text-dark-grayish-blue leading-7">
-              What happens when old PCs are given modern upgrades?
+            <p className="text-sm md:text-paragraph text-dark-grayish-blue leading-7">
+              Our best picks for various needs and budgets.
             </p>
           </div>
         </div>
@@ -50,15 +50,15 @@ const Footer = () => {
             className="w-32 h-40 object-cover "
           />
           <div className="flex flex-col justify-between">
-            <p className="text-4xl font-bold text-soft-red">01</p>
+            <p className="text-3xl md:text-4xl font-bold text-soft-red">03</p>
             <a
               href="#"
-              className="text-xl text-very-dark-blue font-extrabold hover:text-soft-red"
+              className="text-lg md:text-xl text-very-dark-blue font-extrabold hover:text-soft-red"
             >
-              Reviving Retro PCs
+              The Growth of Gaming
             </a>
-            <p className=" text-dark-grayish-blue leading-7">
-              What happens when old PCs are given modern upgrades?
+            <p className="text-sm md:text-paragraph text-dark-grayish-blue leading-7">
+              How the pandemic has sparked fresh opportunities.
             </p>
           </div>
         </div>
